@@ -5,7 +5,9 @@
   "description": "",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html"
+    "build": "parcel build src/*.html",
+    "predeploy": "parcel build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
